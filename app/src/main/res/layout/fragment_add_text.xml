@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.aman.instafilters.Fragments.AddTextFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/et_add_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Text" />
+
+    <Button
+        android:id="@+id/btn_text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_add_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Text"/>
+
+</LinearLayout>
